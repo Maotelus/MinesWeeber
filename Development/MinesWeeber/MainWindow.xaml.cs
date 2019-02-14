@@ -24,5 +24,15 @@ namespace MinesWeeber
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_Reset_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
