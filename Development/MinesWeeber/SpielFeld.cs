@@ -8,7 +8,7 @@ namespace MinesWeeber
 {
     class SpielFeld
     {
-        private bool[,] _spielfeld;
+        private Feld[,] _spielfeld;
         private int _amountOfMines;
         private int _height;
         private int _width;
@@ -18,8 +18,19 @@ namespace MinesWeeber
         {
             this._height = h;
             this._width = w;
-            this._spielfeld = new bool[this._height, this._width];
             this._amountOfMines = mines;
+
+            Feld[,] spielfeld = new Feld[h,w]; 
+
+            for (int i = 0; i < h; i++)
+            {
+                for (int j = 0; i < w; j++)
+                {
+                    spielfeld[i,j] = new Feld(i,j);
+                }
+            }
+
+            this._spielfeld = spielfeld;
         }
 
 
@@ -33,16 +44,13 @@ namespace MinesWeeber
                 int h = ran.Next(0, this._height);
                 int w = ran.Next(0, this._width);
 
-                if (!this._spielfeld[h, w])
+                if (!this._spielfeld[h, w].Mine)
                 {
-                    this._spielfeld[h, w] = true;
+                    this._spielfeld[h, w].Mine = true;
                 }
             }
         }
 
-        public bool CheckField(int h, int w)
-        {
-            return this._spielfeld[h, w];
-        }
+        
     }
 }
