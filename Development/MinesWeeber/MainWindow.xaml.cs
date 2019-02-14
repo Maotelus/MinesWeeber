@@ -34,5 +34,17 @@ namespace MinesWeeber
         {
 
         }
+
+        private void btn_testButton_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                //do something here
+            }
+            else//left or middle click
+            {
+                //do something here
+            }
+        }
     }
 }
