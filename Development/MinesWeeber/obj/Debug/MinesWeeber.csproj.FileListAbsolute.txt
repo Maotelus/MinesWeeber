@@ -13,3 +13,4 @@ D:\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.Properties.Resource
 D:\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.csproj.GenerateResource.Cache
 D:\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.exe
 D:\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.pdb
+H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\bin\Debug\MinesWeeber.exe.config
