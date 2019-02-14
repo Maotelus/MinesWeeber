@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="HauptMenue" Height="300" Width="300" Loaded="Window_Loaded">
     <Grid>
-        <Button x:Name="btn_StartGame" Content="Start" HorizontalAlignment="Left" Margin="103,131,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="Btn_start_game"/>
+        <Button x:Name="btn_StartGame" Content="Start" HorizontalAlignment="Left" Margin="103,131,0,0" VerticalAlignment="Top" Width="75" Click="Btn_start_game" IsEnabled="False"/>
         <Button x:Name="btn_Highscore" Content="Highscore" HorizontalAlignment="Left" Margin="103,169,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Highscore"/>
-        <Button x:Name="btn_Exit" Content="Exit" HorizontalAlignment="Left" Margin="103,208,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="Btn_exit"/>
-        <TextBox x:Name="txtbox_Name" HorizontalAlignment="Left" Height="23" Margin="80,56,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
+        <Button x:Name="btn_Exit" Content="Exit" HorizontalAlignment="Left" Margin="103,208,0,0" VerticalAlignment="Top" Width="75" Click="Btn_exit"/>
+       
+        <TextBox x:Name="txtbox_Name" HorizontalAlignment="Left" Height="23" Margin="80,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
+        <Label x:Name="lbl_PlayerName" Content="Player Name" HorizontalAlignment="Left" Margin="101,25,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_warnign" Content="pls Insert Playername" HorizontalAlignment="Left" Margin="80,92,0,0" VerticalAlignment="Top" Background="#FFFF8D8D"/>
 
     </Grid>
 </Window>

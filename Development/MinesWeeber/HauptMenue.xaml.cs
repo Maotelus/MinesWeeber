@@ -26,7 +26,9 @@ namespace MinesWeeber
 
         private void Btn_Highscore(object sender, RoutedEventArgs e)
         {
-
+            this.Hide();
+            Highscore score = new Highscore();
+            score.ShowDialog();
         }
         
         private void Btn_exit(object sender, RoutedEventArgs e)
@@ -36,12 +38,20 @@ namespace MinesWeeber
 
         private void Btn_start_game(object sender, RoutedEventArgs e)
         {
-
+            this.Hide();
+            Game laufendesSpiel = new Game();
+            laufendesSpiel.Show();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             //textfeld leeren nur zur sicherheit :)
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (txtbox_Name.Text != "")
+                btn_StartGame.IsEnabled = true;
         }
     }
 }

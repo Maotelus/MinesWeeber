@@ -13,3 +13,9 @@ D:\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.Properties.Resource
 D:\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.csproj.GenerateResource.Cache
 D:\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.exe
 D:\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.pdb
+D:\MinesWeeber\Development\MinesWeeber\obj\Debug\Game.g.cs
+D:\MinesWeeber\Development\MinesWeeber\obj\Debug\HauptMenue.g.cs
+D:\MinesWeeber\Development\MinesWeeber\obj\Debug\Highscore.g.cs
+D:\MinesWeeber\Development\MinesWeeber\obj\Debug\Game.baml
+D:\MinesWeeber\Development\MinesWeeber\obj\Debug\HauptMenue.baml
+D:\MinesWeeber\Development\MinesWeeber\obj\Debug\Highscore.baml
