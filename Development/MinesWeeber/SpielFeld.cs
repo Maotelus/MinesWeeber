@@ -51,6 +51,49 @@ namespace MinesWeeber
             }
         }
 
+        public List<Feld> GetSurroundingFields(Feld feld)
+        {
+
+
+            int xMax = feld.X + 1;
+            int yMax = feld.Y + 1;
+            int xMin =  feld.X - 1;
+            int yMin = feld.Y - 1;
+
+            List<Feld> surroundings = new List<Feld>();
+
+            if (yMax >= this._height)
+            {
+                yMax--;
+            }
+            if (xMax >= this._width)
+            {
+                yMax--;
+            }
+            if (yMin < 0)
+            {
+                yMin = 0;
+            }
+            if (xMin < 0)
+            {
+                xMin = 0;
+            }
+
+            for (int i = yMin; i < yMax; i++)
+            {
+                for (int j = xMin; i < xMax; j++)
+                {
+                    surroundings.Add(this._spielfeld[i, j]);
+                }
+
+            }
+
+            
+
+            return surroundings;
+
+        }
+
         
     }
 }
