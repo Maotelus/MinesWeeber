@@ -94,6 +94,27 @@ namespace MinesWeeber
 
         }
 
+        public int GetNumberOfMines(Feld feld)
+        {
+            List<Feld> sur = GetSurroundingFields(feld);
+            int numMines = 0;
+
+            foreach (Feld element in sur)
+            {
+                if (element.Mine)
+                {
+                    numMines++;
+                }
+            }
+
+            return numMines;
+        }
+
+        public void FelderAufdecken(Feld feld)
+        {
+            //ToDO
+        }
+
         
     }
 }
