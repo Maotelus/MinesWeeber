@@ -19,12 +19,21 @@ namespace MinesWeeber
     /// </summary>
     public partial class Game : Window
     {
+
+
         public Game()
         {
             InitializeComponent();
+
+            CreatePlayground();
         }
 
         private void btn_Reset_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void CreatePlayground()
         {
 
         }
