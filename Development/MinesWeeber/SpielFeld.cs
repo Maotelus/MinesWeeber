@@ -13,6 +13,31 @@ namespace MinesWeeber
         private int _height;
         private int _width;
 
+        public int Height
+        {
+            get
+            {
+                return _height;
+            }
+
+            set
+            {
+                _height = value;
+            }
+        }
+
+        public int Width
+        {
+            get
+            {
+                return _width;
+            }
+
+            set
+            {
+                _width = value;
+            }
+        }
 
         public SpielFeld(int h, int w, int mines)
         {

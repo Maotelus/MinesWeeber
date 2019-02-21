@@ -19,6 +19,7 @@ namespace MinesWeeber
     /// </summary>
     public partial class Game : Window
     {
+        SpielFeld _sf = new SpielFeld(16, 30, 99); 
 
 
         public Game()
@@ -35,6 +36,36 @@ namespace MinesWeeber
 
         public void CreatePlayground()
         {
+            for (int i = 0; i > _sf.Height; i++)
+            {
+                for (int j = 0; j > _sf.Width; j++)
+                {
+                    Button neuerButton = new Button();
+                    
+                }
+            }
+        }
+
+        public void CreateGridCol()
+        {
+            int countCol = _sf.Width;
+
+            for (int i = 0; i < countCol; i++)
+            {
+                ColumnDefinition newCol = new ColumnDefinition();
+                SpielfeldGrid.ColumnDefinitions.Add(newCol);
+            }   
+        }
+
+        public void CreateGridRow()
+        {
+            int countCol = _sf.Height;
+
+            for (int i = 0; i < countCol; i++)
+            {
+                RowDefinition newRow = new RowDefinition();
+                SpielfeldGrid.RowDefinitions.Add(newRow);
+            }
 
         }
     }

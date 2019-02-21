@@ -14,7 +14,7 @@
         </Button>
         <TextBox x:Name="txt_Time" HorizontalAlignment="Left" Height="23" Margin="10,31,0,0" TextWrapping="Wrap" Text="Zeit" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
         <TextBox x:Name="txt_MinesAmount" HorizontalAlignment="Left" Height="23" Margin="387,31,0,0" TextWrapping="Wrap" Text="Anzahl Mienen" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <Grid HorizontalAlignment="Left" Height="250" Margin="0,69,0,0" VerticalAlignment="Top" Width="517"/>
+        <Grid x:Name="SpielfeldGrid" HorizontalAlignment="Left" Height="250" Margin="0,69,0,0" VerticalAlignment="Top" Width="517"/>
 
     </Grid>
 </Window>
