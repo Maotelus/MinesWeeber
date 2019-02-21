@@ -50,7 +50,6 @@ namespace MinesWeeber
                     SpielfeldGrid.Children.Add(neuerButton);
                     Grid.SetColumn(neuerButton, j);
                     Grid.SetRow(neuerButton, i);
-                    Console.WriteLine("Button added j:{0}, i:{1}",j,i );
                 }
             }
         }
