@@ -7,14 +7,18 @@
         mc:Ignorable="d"
         Title="Game" Height="350" Width="525">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="322*"/>
+            <ColumnDefinition Width="195*"/>
+        </Grid.ColumnDefinitions>
         <Button x:Name="btn_Reset" Content="" HorizontalAlignment="Left" Margin="209,10,0,0" VerticalAlignment="Top" Width="82" Click="btn_Reset_Click" Height="51">
             <Button.Background>
-                <ImageBrush ImageSource="MinesWeeber/smilieFace.png" TileMode="Tile" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="../MinesWeeber/smilieFace.png" TileMode="Tile" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <TextBox x:Name="txt_Time" HorizontalAlignment="Left" Height="23" Margin="10,31,0,0" TextWrapping="Wrap" Text="Zeit" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <TextBox x:Name="txt_MinesAmount" HorizontalAlignment="Left" Height="23" Margin="387,31,0,0" TextWrapping="Wrap" Text="Anzahl Mienen" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <Grid HorizontalAlignment="Left" Height="250" Margin="0,69,0,0" VerticalAlignment="Top" Width="517"/>
+        <TextBox x:Name="txt_MinesAmount" HorizontalAlignment="Left" Height="23" Margin="64.988,31,0,0" TextWrapping="Wrap" Text="Anzahl Mienen" VerticalAlignment="Top" Width="120" IsEnabled="False" Grid.Column="1"/>
+        <Grid HorizontalAlignment="Left" Height="250" Margin="0,69,0,0" VerticalAlignment="Top" Width="517" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

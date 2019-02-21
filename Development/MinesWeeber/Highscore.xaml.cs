@@ -29,12 +29,15 @@ namespace MinesWeeber
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             StreamReader reader = new StreamReader("../../highscore.txt") ;
-            
-            if (reader.ReadLine() != null)
+
+
+            String line = reader.ReadLine();
+            while (line != null)
             {
-                String line = reader.ReadLine();
+               
                 String[] toSplit = line.Split(';');
                 libx_Scores.Items.Add(toSplit[0] + " : " + toSplit[1]);
+                line = reader.ReadLine();
             }
         }
 
