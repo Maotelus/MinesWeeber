@@ -33,3 +33,11 @@ H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj
 H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\App.g.cs
 H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber_MarkupCompile.cache
 H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber_MarkupCompile.lref
+H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\bin\Debug\MinesWeeber.exe
+H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\bin\Debug\MinesWeeber.pdb
+H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\Game.baml
+H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\HauptMenue.baml
+H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\Highscore.baml
+H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.g.resources
+H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.Properties.Resources.resources
+H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\MinesWeeber.csproj.GenerateResource.Cache
