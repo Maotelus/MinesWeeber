@@ -127,18 +127,6 @@ namespace MinesWeeber {
             return;
             case 5:
             this.btn_testButton = ((System.Windows.Controls.Button)(target));
-            
-            #line 18 "..\..\MainWindow.xaml"
-            this.btn_testButton.Click += new System.Windows.RoutedEventHandler(this.btn_testButton_Click);
-            
-            #line default
-            #line hidden
-            
-            #line 18 "..\..\MainWindow.xaml"
-            this.btn_testButton.MouseUp += new System.Windows.Input.MouseButtonEventHandler(this.btn_testButton_MouseUp);
-            
-            #line default
-            #line hidden
             return;
             }
             this._contentLoaded = true;
