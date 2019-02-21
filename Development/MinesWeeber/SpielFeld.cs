@@ -51,7 +51,7 @@ namespace MinesWeeber
             {
                 for (int j = 0; j < w; j++)
                 {
-                    Console.WriteLine(i + ":i j:" + j);
+
                     spielfeld[i,j] = new Feld(i,j);
                 }
             }
