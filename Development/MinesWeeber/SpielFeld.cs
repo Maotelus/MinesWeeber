@@ -112,7 +112,7 @@ namespace MinesWeeber
 
         public void FelderAufdecken(Feld feld)
         {
-            //ToDO
+            //ToDo
         }
 
         
