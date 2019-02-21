@@ -4,12 +4,16 @@
 winexe
 C#
 .cs
-H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\obj\Debug\
+D:\MinesWeeber\Development\MinesWeeber\obj\Debug\
 MinesWeeber
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\App.xaml
+=======
+D:\MinesWeeber\Development\MinesWeeber\App.xaml
+>>>>>>> 1f609c8d745f8c096247d894d4980a25efc8efd4
 3-1362274460
 
 9936194891
