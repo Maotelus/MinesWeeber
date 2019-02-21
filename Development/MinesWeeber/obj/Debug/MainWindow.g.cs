@@ -78,27 +78,6 @@ namespace MinesWeeber {
             #line default
             #line hidden
             return;
-<<<<<<< HEAD
-            case 2:
-            this.btn_Reset = ((System.Windows.Controls.Button)(target));
-            
-            #line 10 "..\..\MainWindow.xaml"
-            this.btn_Reset.Click += new System.Windows.RoutedEventHandler(this.btn_Reset_Click);
-            
-            #line default
-            #line hidden
-            return;
-            case 3:
-            this.txt_Time = ((System.Windows.Controls.TextBox)(target));
-            return;
-            case 4:
-            this.txt_MinesAmount = ((System.Windows.Controls.TextBox)(target));
-            return;
-            case 5:
-            this.btn_testButton = ((System.Windows.Controls.Button)(target));
-            return;
-=======
->>>>>>> feature/Highscore
             }
             this._contentLoaded = true;
         }

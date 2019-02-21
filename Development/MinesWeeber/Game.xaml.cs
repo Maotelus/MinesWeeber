@@ -10,26 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MinesWeeber
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für Game.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Game : Window
     {
-        public MainWindow()
+        public Game()
         {
             InitializeComponent();
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        private void btn_Reset_Click(object sender, RoutedEventArgs e)
         {
-            this.Hide();
-            HauptMenue Menue = new HauptMenue();
-            Menue.ShowDialog();
+
         }
     }
 }

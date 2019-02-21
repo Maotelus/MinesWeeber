@@ -10,26 +10,33 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MinesWeeber
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für Highscore.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Highscore : Window
     {
-        public MainWindow()
+        public Highscore()
         {
             InitializeComponent();
         }
 
+        private void btn_Back_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void libx_Scores_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            this.Hide();
-            HauptMenue Menue = new HauptMenue();
-            Menue.ShowDialog();
+
         }
     }
 }

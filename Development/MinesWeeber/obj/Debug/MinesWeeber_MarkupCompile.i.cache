@@ -9,12 +9,21 @@ MinesWeeber
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 H:\Schule\Fächer\PMC\2Bois_1MinesWeeper\MinesWeeber\Development\MinesWeeber\App.xaml
 11151548125
 
 11-1753184224
 13738642453
 MainWindow.xaml;
+=======
+D:\MinesWeeber\Development\MinesWeeber\App.xaml
+4-210726335
+
+121508570200
+15767094614
+Game.xaml;HauptMenue.xaml;Highscore.xaml;MainWindow.xaml;
+>>>>>>> feature/Highscore
 
 False
 
