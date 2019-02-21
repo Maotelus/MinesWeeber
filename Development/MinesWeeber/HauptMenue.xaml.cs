@@ -45,7 +45,8 @@ namespace MinesWeeber
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //textfeld leeren nur zur sicherheit :)
+            this.Show();
+            txtbox_Name.Text = "";
         }
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
