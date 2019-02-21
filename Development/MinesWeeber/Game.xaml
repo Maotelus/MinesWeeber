@@ -9,7 +9,7 @@
     <Grid>
         <Button x:Name="btn_Reset" Content="" HorizontalAlignment="Left" Margin="209,10,0,0" VerticalAlignment="Top" Width="82" Click="btn_Reset_Click" Height="51">
             <Button.Background>
-                <ImageBrush ImageSource="D:\MinesWeeber\Development\MinesWeeber/smilieFace.png" TileMode="Tile" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="MinesWeeber/smilieFace.png" TileMode="Tile" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <TextBox x:Name="txt_Time" HorizontalAlignment="Left" Height="23" Margin="10,31,0,0" TextWrapping="Wrap" Text="Zeit" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
